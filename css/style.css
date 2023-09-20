@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+table {
+  /* 中央に寄せる */
+  margin: 0px auto;
+}
+
+a {
+  color: #000;
+  /* 下線を消去 */
+  text-decoration: none;
+}
+
+/* リンクにカーソルが乗っている状態 */
+a:hover {
+  text-decoration: underline;
+}
+
+img.icon {
+  /* 画像を丸く切り抜く */
+  border-radius: 50%;
+}
+
+.nav li {
+  /* これを設定すると下線の幅がおかしくなる */
+  /* font-size: 20px; */
+  padding-right: 30px;
+  /* ブロック表示をインライン表示に変更 */
+  display: inline;
+  /* 箇条書き「・」の消去 */
+  list-style-type: none;
+}
+
+/* コンテンツ */
+div.contents {
+  /* コンテンツのマージン（下）はスペースを空ける */
+  margin-bottom: 350px;
+}
+
+/* スキルセット内の一つの項目 */
+.skill-set-one {
+  border: 1px solid;
+  margin: 40px;
+  padding: 0px 30px;
+  padding: 0px auto;
+  width: 270px;
+  height: 300px;
+}
+
+/* スキルセット内の一つの項目 */
+.skill-set-one-license {
+  text-align: left;
+  border: 1px solid;
+  margin: 40px;
+  padding: 0px 30px;
+  padding: 0px auto;
+  width: 640px;
+  height: 450px;
+
+  /* 中央に寄せる */
+  margin: 0px auto;
+}
+
+/* スキルセット - 項目 */
+.skill-set-one td {
+  width: 150px;
+}
+
+.skill-set-one .left {
+  padding-right: 10px;
+  text-align: right;
+}
+
+.skill-set-one .right {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.works td {
+  padding: 30px;
+}
+
+/* 実績テーブルタグのカラム */
+div.works-column {
+  border-style: solid;
+  border-width: 1px;
+  padding: 30px;
+  margin: 10px;
+}
